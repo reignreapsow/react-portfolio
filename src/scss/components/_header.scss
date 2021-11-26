@@ -1,0 +1,36 @@
+@use "src/scss/components/fonts" as f;
+@use "src/scss/components/colors" as c;
+@use "src/scss/components/mixins" as m;
+@forward "src/scss/components/nav";
+
+header{ 
+    position: fixed;
+    z-index: 99;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0.35);
+
+    
+
+    .headerTitle {
+        width: 30%; 
+        height: 5%;  
+        margin: 0;
+        margin-left: 2%;
+        text-align: center;  
+
+        h1{ 
+            padding:0;
+            margin: 0;
+            text-align: center;
+            @include m.PrimaryFont;
+            
+        }
+
+        
+    }
+}
