@@ -8,15 +8,19 @@ import ServicesSection from './../src/components/ServicesSection';
 import ContactSection from './../src/components/ContactSection';
 
 
-const ServicesPage = (
-    <div className="App">
-        <Header />
-        <HeroSection />
-        <ServicesSection />
-        <ShowcaseSection />
-        <ContactSection />
-        <h1>REACT is working</h1>
-    </div>
-);
+class ServicesPage extends React.Component{
+    render() {
+        return (
+            <div className="App">
+                <Header />
+                <HeroSection />
+                <ServicesSection />
+                <ShowcaseSection />
+                <ContactSection />
+            </div>
+        );
+
+    }
+}
 
 export default ServicesPage;

@@ -5,13 +5,13 @@ class ProjectThumb extends React.Component{
     render() {
         return (
             <div className="showcaseImgBox">
-                <img src={dumbyImg} className="projectThumb" alt="#" />
+                <img src={dumbyImg} className="projectThumb" alt="true" />
                 <div className="projectDataBox">
                     <div className="projectData">
                         <h3>ProjectName</h3>
                         <p>Short Description of project. Lorme;las a;lkjd ;lkdlfja; slkdfj;a lsd; alsjdf; lajs; fdlkaj ;dlfkja; ldsklsdjf; alksjd f;alkjs d;fkaj s;ldkjfa ;slkjfd ;alksasalskjf;alksjg ;aksfjglksdjf;gskjf;lg skjd;fg;lskjf ;lgflgj;lskjd;flgks ;ldkfjg s;lkdfjg ;sdkfjlgskdjfga;slskdfjgs;lkdfgj;slkdfjg;slkdfj</p>
                         <div className='projectTypeIcon'>
-                            <img src="#" className="projectTypeIcon" alt />
+                            <img src="#" className="projectTypeIcon" alt="true" />
                         </div>
                     </div>
                 </div>
