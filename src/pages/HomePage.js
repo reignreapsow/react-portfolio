@@ -1,6 +1,8 @@
 import React from 'react';
 
-// Components
+import "./../scss/App.scss";
+
+//# Components
 import Header from './../components/Header';
 import HeroSection from './../components/HeroSection';
 import ShowcaseSection from './../components/Showcase';

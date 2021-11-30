@@ -18,3 +18,19 @@
 
 
 */
+/*
+    todo FINISH MENU AND HERO SECTION
+    todo ADD the rest of the sections
+    TODO ADD EXPRESSJS to run in server
+
+
+*/
+## TODO 
+
+    
+
+
+## FIXES
+
+    FIX NAVRouter
+    01 -- FIXED PAGES FILE STRUCTURE

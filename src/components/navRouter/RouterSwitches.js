@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { BrowserRouter as Switch, Route } from "react-router-dom";
 
 //# Pages
-import HomePage from './../../../pages/HomePage';
-import ServicesPage from './../../../pages/ServicesPage';
-import GalleryPage from './../../../pages/GalleryPage';
-// import ResumePage from './../../../pages/ResumePage';
-import ContactPage from './../../../pages/ContactPage';
+import HomePage from './../../pages/HomePage';
+import ServicesPage from './../../pages/ServicesPage';
+import GalleryPage from './../../pages/GalleryPage';
+// import ResumePage from './../../pages/ResumePage';
+import ContactPage from './../../pages/ContactPage';
 
 class RouterSwitches extends React.Component{
     return() {

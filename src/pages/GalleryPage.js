@@ -1,15 +1,15 @@
 import React from 'react';
 
-import "./scss/App.scss";
+
 
 
 
 //# Components
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import ShowcaseSection from './components/Showcase';
-import ServicesSection from './components/ServicesSection';
-import ContactSection from './components/ContactSection';
+import Header from './../components/Header';
+import HeroSection from './../components/HeroSection';
+import ShowcaseSection from './../components/Showcase';
+import ServicesSection from './../components/ServicesSection';
+import ContactSection from './../components/ContactSection';
 /*
     todo FINISH MENU AND HERO SECTION
     todo ADD the rest of the sections

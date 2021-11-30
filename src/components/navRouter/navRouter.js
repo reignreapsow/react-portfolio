@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import RouterSwitches from './RouterSwitches';
 
 
-class NavRouter extends React.Component {
+class NavRouter extends Component {
     render() {
         return (
             <Router>
