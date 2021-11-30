@@ -7,4 +7,14 @@
 3) build front end
 4)  FINISH MENU AND HERO SECTION
 5)  ADD the rest of the sections
-6)  
+
+
+/*
+
+    TODO LIST
+        01 FINISH MENU AND HERO SECTION
+        02 ADD the rest of the sections
+        03 ADD EXPRESSJS to run in server
+
+
+*/

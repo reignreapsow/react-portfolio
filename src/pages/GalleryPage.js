@@ -18,14 +18,19 @@ import ContactSection from './components/ContactSection';
 
 */
 
-const app = (
-    <div className="App">
-        <Header />
-        <HeroSection />
-        <ServicesSection />
-        <ShowcaseSection />
-        <ContactSection />
-        <h1>REACT is working</h1>
-    </div>
-);
+class GalleryPage extends React.Component{
+    render(){
+        return (
+        <div className="App">
+            <Header />
+            <HeroSection />
+            <ServicesSection />
+            <ShowcaseSection />
+            <ContactSection />
+            <h1>REACT is working</h1>
+        </div>
+        );
+    }
+}
 
+export default GalleryPage;
