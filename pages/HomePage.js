@@ -9,10 +9,7 @@ import ContactSection from './../src/components/ContactSection';
 
 /*
 
-    TODO LIST
-    todo 01 FINISH MENU AND HERO SECTION
-    todo 02 ADD the rest of the sections
-    todo 03 ADD EXPRESSJS to run in server
+
 
 
 */

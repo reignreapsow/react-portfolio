@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import NavRouter from './navRouter/navRouter';
+// import NavRouter from './navRouter/navRouter';
 
 
 class Header extends React.Component {
@@ -10,7 +10,7 @@ class Header extends React.Component {
                     <h1><span>Reign</span> Westry</h1>
                 </div>
                 
-                <NavRouter />
+                {/* <NavRouter /> */}
             </header>
         );
     }

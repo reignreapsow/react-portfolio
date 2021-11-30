@@ -5,5 +5,5 @@
 
     portfolio:~/public_html/react/.git
 
-
-    a
+## TODOs & UPDATES
+FIXED alt html error in jsx
