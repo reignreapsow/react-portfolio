@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "./../scss/App.scss";
+
 
 //# Components
 import Header from './../components/Header';

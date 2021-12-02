@@ -9,24 +9,11 @@
 5)  ADD the rest of the sections
 
 
-/*
-
-    TODO LIST
-        01 FINISH MENU AND HERO SECTION
-        02 ADD the rest of the sections
-        03 ADD EXPRESSJS to run in server
-
-
-*/
-/*
-    todo FINISH MENU AND HERO SECTION
-    todo ADD the rest of the sections
-    TODO ADD EXPRESSJS to run in server
-
-
-*/
 ## TODO 
-
+    00 JOIN the branch back to the master upon completion
+    01 FINISH MENU AND HERO SECTION
+    02 ADD the rest of the sections
+    03 ADD EXPRESSJS to run in server
     
 
 
