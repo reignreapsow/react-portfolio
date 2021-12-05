@@ -1,16 +1,14 @@
 import React from 'react';
 
 //# Components
-import Header from './../components/Header';
-import HeroSection from './../components/HeroSection';
-import ShowcaseSection from './../components/Showcase';
-import ServicesSection from './../components/ServicesSection';
-import ContactSection from './../components/ContactSection';
+import Header from '../components/Header';
+import HeroSection from '../components/HeroSection';
+import ShowcaseSection from '../components/Showcase';
+import ServicesSection from '../components/ServicesSection';
+import ContactSection from '../components/ContactSection';
 
 
-
-class ServicesPage extends React.Component{
-    render() {
+export default function ServicesPage(){
         return (
             <div className="App">
                 <Header />
@@ -21,8 +19,5 @@ class ServicesPage extends React.Component{
                 <h1>REACT is working</h1>
             </div>  
         );
-    }
-}
-
-
-export default ServicesPage;
+//     }
+};
