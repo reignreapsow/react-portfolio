@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 //# Components
 
@@ -17,7 +17,6 @@ class Nav extends Component {
                     <li><Link to="/contact">Contact</Link></li>
                     <li><Link to="/resume">Resume</Link></li>
                 </ul>  
-                <Outlet />
             </nav>   
         );
     }

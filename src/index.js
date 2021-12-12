@@ -1,8 +1,7 @@
 import React from 'react';
 import { render } from "react-dom";
 import {
-    BrowserRouter
-    
+    BrowserRouter    
 } from "react-router-dom";
 import "./scss/App.scss";
 import App from './App';

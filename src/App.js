@@ -19,10 +19,10 @@ export default function App() {
         <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="services" element={<ServicesPage />} />
-            <Route path="gallery" element={<GalleryPage />} />
-            <Route path="about" element={<AboutPage />} />
-            <Route path="contact" element={<ContactPage />} />
-            <Route path="resume" element={<ResumePage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/resume" element={<ResumePage />} />
             <Route path="/404" element={<div>Page Not Found</div>} />
             <Route path="*" element={<Navigate replace to="/404" />} />
         </Routes>
