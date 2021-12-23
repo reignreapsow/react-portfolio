@@ -25,3 +25,27 @@
     03 -- Copy all  project data to a database
     04 -- DIAGRAM the database
     05 -- Build a auto populating system for all static data
+    06 -- BUILD a database to auto populate the gallery
+    07 -- FIX RESPONSIVE DESIGN FOR MOBILE TABLET DESKTOP
+    08 -- ADD SEARCH ENGINE TO GALLERY ( GRAB SELECTED OPTIONS AND re-populate the gallery with only projects with the selected options)
+            |
+            |======= WEBSITE ====== APP
+            |
+            |======== LANGUAGE
+            |           |
+            |           |- HTML
+            |           |- PHP
+            |           |- SCSS
+            |           |- CSS
+            |           |- REACTJS
+            |           |- JAVA
+            |           |- 
+            |
+            |======== DATE
+            |            |
+            |            |- ASCENDING ORDER
+            |            |
+            |            |- DESCENDING ORDER
+            |            |
+            |
+                        
