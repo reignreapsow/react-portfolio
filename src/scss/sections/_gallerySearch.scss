@@ -1,0 +1,53 @@
+
+@use "src/scss/components/colors" as c;
+@use "src/scss/components/fonts" as f;
+
+.gallerySearch{
+    // background-color: c.$Fourth;
+    vertical-align: middle;
+    margin: 1%;
+    // color: white;
+    font-size: 2rem;
+
+    table{
+        width: 80%;
+        margin: 1% auto;
+        border: 2px solid black;
+        background-color: c.$Fourth;
+        
+
+        tr{
+            margin: 0 auto;
+        }
+        th{ 
+            font-family: f.$FontOne;
+            border: 1px solid blue;
+            font-size: 2rem;
+            padding: .5%;
+            color: c.$Primary;
+            text-shadow: -.5px -2px c.$Secondary;
+        }
+
+        td{
+            font-family: f.$FontTwo;
+            border: 1px solid red;
+            text-align: center;
+            
+            label{
+                margin: 0 6px;
+
+
+            }
+            input[type=checkbox]:checked + label {
+                    background-color: c.$Secondary;
+                    color: c.$Tertiary;
+                }
+
+        }
+    }
+
+    button{
+        width: 100px;
+        height: 25px;
+    }
+}
