@@ -30,7 +30,6 @@ class GalleryPage extends React.Component{
             <ShowcaseSection />
             <ShowcaseSection />
             <ShowcaseSection />
-            <ServicesSection />
             <ContactSection />
             <h1>REACT is working</h1>
         </div>
