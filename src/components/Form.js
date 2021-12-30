@@ -5,19 +5,6 @@ class Form extends React.Component{
         return (
             <Form className="contactForm">
                         
-<<<<<<< HEAD
-                <div className="namebox">
-                    <label htmlFor="potentialClientFname">
-                        First Name<span>*</span>
-                    </label>
-                    <input type="text" className="potentialClientFnameplaceholder" placeholder="Joe"/>
-                
-                    <label htmlFor="potentialClientLname">
-                        Last Name<span>*</span>
-                    </label>
-                    <input type="text"className="potentialClientLnameplaceholder" placeholder="Client" />
-                </div>
-=======
                         <div className="namebox">
                             <label htmlFor="potentialClientFname">
                                 First Name<span>*</span>
@@ -29,7 +16,6 @@ class Form extends React.Component{
                             </label>
                             <input type="text"  className="potentialClientLname" placeholder="Client" />
                         </div>
->>>>>>> navRouter
 
                         
                         <label htmlFor="potentialClientEmail">

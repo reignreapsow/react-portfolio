@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
-<<<<<<< HEAD
-// import NavRouter from './navRouter/navRouter';
-=======
 import Nav from './Nav';
->>>>>>> navRouter
 
 
 class Header extends Component {
@@ -14,11 +10,7 @@ class Header extends Component {
                     <h1><span>Reign</span> Westry</h1>
                 </div>
                 
-<<<<<<< HEAD
-                {/* <NavRouter /> */}
-=======
                 <Nav />
->>>>>>> navRouter
             </header>
         );
     }
