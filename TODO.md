@@ -13,21 +13,20 @@
     00 JOIN the branch back to the master upon completion
     01 FINISH MENU AND HERO SECTION
     02 ADD the rest of the sections
-    03 ADD EXPRESSJS to run in server
+    03 ADD EXPRESSJS to connect to the mysql database
     
 
 
 ## FIXES
 
-    FIX NAVRouter
-    01 -- FIXED PAGES FILE STRUCTURE
-    02 -- Build a search auto filter for the gallery
+    00 -- FIX NAVRouter ---> DONE
+    01 -- FIXED PAGES FILE STRUCTURE --> DONE
+    02 -- Build a search auto filter for the gallery --<> WORKING
     03 -- Copy all  project data to a database
     04 -- DIAGRAM the database
-    05 -- Build a auto populating system for all static data
-    06 -- BUILD a database to auto populate the gallery
-    07 -- FIX RESPONSIVE DESIGN FOR MOBILE TABLET DESKTOP
-    08 -- ADD SEARCH ENGINE TO GALLERY ( GRAB SELECTED OPTIONS AND re-populate the gallery with only projects with the selected options)
+    05 -- BUILD a database to auto populate the gallery
+    06 -- FIX RESPONSIVE DESIGN FOR MOBILE TABLET DESKTOP
+    07 -- ADD SEARCH ENGINE TO GALLERY ( GRAB SELECTED OPTIONS AND re-populate the gallery with only projects with the selected options)
             |
             |======= WEBSITE ====== APP
             |
@@ -48,4 +47,9 @@
             |            |- DESCENDING ORDER
             |            |
             |
+
+    08 -- CREATED a bluehost portfolio database and tester username and pass
+            user: reigndes_tester
+            pass: reign
+            database Name: regindes_portfolio_projects_list
                         

@@ -10,6 +10,7 @@ import HeroSection from '../components/HeroSection';
 import ShowcaseSection from '../components/Showcase';
 import ServicesSection from '../components/ServicesSection';
 import ContactSection from '../components/ContactSection';
+import GallerySearch from '../components/GallerySearch';
 /*
     todo FINISH MENU AND HERO SECTION
     todo ADD the rest of the sections
@@ -24,6 +25,7 @@ class GalleryPage extends React.Component{
         <div className="App">
             <Header />
             <HeroSection />
+            <GallerySearch />
             <ShowcaseSection />
             <ShowcaseSection />
             <ShowcaseSection />
@@ -35,5 +37,9 @@ class GalleryPage extends React.Component{
         );
     }
 }
+
+// function displayGallery() {
+    
+// }
 
 export default GalleryPage;
