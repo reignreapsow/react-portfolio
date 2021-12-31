@@ -1,20 +1,28 @@
   //# Webpack.config.js
    
-    const path = require('path');
-    const HtmlWebpackPlugin = require('html-webpack-plugin');
-    const { webpack } = require('webpack');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { webpack } = require('webpack');
+const nodeExternals = require('webpack-node-externals');
+const {
+    NODE_ENV = 'production',
+} = process.env;
 
-    module.exports = {
-    // the output bundle won't be optimized for production but suitable for development
-    mode: 'development',
+module.exports = {
     // the app entry point is /src/index.js
     entry: path.resolve(__dirname, 'src', 'index.js'),
+    // the output bundle won't be optimized for production but suitable for development
+    mode: NODE_ENV,
+    target: 'node',
     output: {
         // the output of the webpack build will be in /dist directory
         path: path.resolve(__dirname, 'dist'),
         // the filename of the JS bundle will be bundle.js
         filename: 'bundle.js',
         publicPath: '/'
+    },
+    resolve: {
+        extensions: ['.ts', '.js']
     },
     module: {
         rules: [
@@ -31,6 +39,13 @@
                 }
             },
             {
+                // TYPESCRIPT COMPILER
+                test: /\.ts$/,
+                use: [
+                    'ts-loader',
+                ]
+            },
+            {
                 test: /\.s[ac]ss$/i,
                 use: [
                         // Creates `style` nodes from JS strings
@@ -41,20 +56,21 @@
                         "sass-loader",
                     ],
             },
-            // LOADS IMAGES
             {
+                // LOADS IMAGES
                 test: /\.(gif|png|jpe?g|svg)$/i,
                 type: 'asset/resource'
 
             },
-            // LOADS ANY TYPE OF FILE including fonts
             {
+                // LOADS ANY TYPE OF FILE including fonts
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,
                 type: 'asset/resource',
             },
                 
         ]
     },
+    externals: [nodeExternals()],
     devServer: {
         historyApiFallback: true,
     },
@@ -65,5 +81,6 @@
                     template: path.resolve(__dirname, 'src', 'index.html'),
                     filename: 'index.html'
                 })
-            ]
+        ],
+    watch: NODE_ENV === 'development',
     };
