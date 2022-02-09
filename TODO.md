@@ -8,6 +8,7 @@
 3. build front end
 4. FINISH MENU AND HERO SECTION
 5. ADD the rest of the sections
+6. 
 
 ## TODO
 
@@ -15,6 +16,7 @@
     01 FINISH MENU AND HERO SECTION
     02 ADD the rest of the sections
     03 ADD EXPRESSJS to connect to the mysql database
+    04 SETUP GIT REMOTE & PUSHED TO SUBDOMAIN REPO 
 
 ## FIXES
 
@@ -56,3 +58,5 @@
             TESTING NEW REPO
             TESTING NEW REPO
             TESTING NEW REPO
+            TESTING NEW REPO
+
