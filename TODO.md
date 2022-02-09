@@ -1,21 +1,20 @@
-1) sync git to deploy at the subdomain: 
-    react.reignwestry.com
+1. sync git to deploy at the subdomain:
+   react.reignwestry.com
 
-    dist path: /home1/reigndes/public_html/react_projects
-2) as
+   dist path: /home1/reigndes/public_html/react_projects
 
-3) build front end
-4)  FINISH MENU AND HERO SECTION
-5)  ADD the rest of the sections
+2. as
 
+3. build front end
+4. FINISH MENU AND HERO SECTION
+5. ADD the rest of the sections
 
-## TODO 
+## TODO
+
     00 JOIN the branch back to the master upon completion
     01 FINISH MENU AND HERO SECTION
     02 ADD the rest of the sections
     03 ADD EXPRESSJS to connect to the mysql database
-    
-
 
 ## FIXES
 
@@ -38,7 +37,7 @@
             |           |- CSS
             |           |- REACTJS
             |           |- JAVA
-            |           |- 
+            |           |-
             |
             |======== DATE
             |            |
@@ -52,4 +51,6 @@
             user: reigndes_tester
             pass: reign
             database Name: regindes_portfolio_projects_list
-                        
+
+
+            TESTING NEW REPO
