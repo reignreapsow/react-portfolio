@@ -1,20 +1,32 @@
-#!/bin/sh
+#!/bin/bash
 
-
-TARGET="~/public_html/sub_domains/react/dist/"
-GIT_DIR="~/public_html/sub_domains/react/.git"
+SITE_NAME="react.reignwestry.com"
+PROJECT_NAME_ON_GIT="react-portfolio"
+SITE_PATH="/home1/reigndes/public_html/sub_domains/react/dist/"
 BRANCH="master"
+GIT_DIR="/home1/reigndes/public_html/sub_domains/react/.git/"
 
-while read oldrev newrev ref
-do
-    # only checking out the master (or whatever branch you would like to deploy)
-    if [[ $ref = refs/heads/$BRANCH ]];
-    then
-        echo "Ref $ref received. Deploying ${BRANCH} branch to react.reignwestry.com"
-	echo "PROJECT is UPDATED on react.reignwestry.com"
-        git --work-tree=$TARGET --git-dir=$GIT_DIR checkout -f
-    else
-        echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch may be deployed on this 
-server."
-    fi
+git --work-tree=$SITE_PATH --git-dir=$GIT_DIR checkout -f
+echo "**** $SITE_NAME [post-receive] hook received."
+
+echo "##########################################################"
+echo "# **** UPDATING [$BRANCH] BRANCH &                       #" 
+echo "#      CHECKING OUT GIT PROJECT [$PROJECT_NAME_ON_GIT] ON [$SITE_NAME] ***** #"
+echo "#########################################################"
+
+echo "**** Checking out [$BRANCH] branch."
+    GIT_WORK_TREE=$SITE_PATH git checkout -f $BRANCH
+    
+    exit 0
+
+  #fi
 done
+
+
+
+echo "################################"
+echo "# **** PROJECT DEPLOYED & UPDATED! Done. #"
+echo "################################"
+
+# [Restart/reload webserver stuff here]
+#exec git-update-server-info

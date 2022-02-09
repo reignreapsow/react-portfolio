@@ -54,11 +54,3 @@
             pass: reign
             database Name: regindes_portfolio_projects_list
 
-
-            TESTING NEW REPO
-            TESTING NEW REPO
-            TESTING NEW REPO
-            TESTING NEW REPO
-            TESTING NEW REPO
-            TESTING NEW REPO
-
