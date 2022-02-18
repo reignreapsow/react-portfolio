@@ -18,9 +18,9 @@ app.use(express.static(publicPath)); //default load public folder
 // app.get('/', (req, res) => {
 //     res.sendFile(path.join(publicPath, 'index.html'))
 // })
-app.get('/services', (req, res) => {
-    res.send('This is the Portfolio ServicesPage')
-})
+// app.get('/services', (req, res) => {
+//     res.send('This is the Portfolio ServicesPage')
+// })
 // app.get('/gallery', (req, res) => {
 //     res.send('This is the Portfolio GalleryPage')
 // })
@@ -33,14 +33,15 @@ app.get('/services', (req, res) => {
 // app.get('/resume', (req, res) => {
 //     res.send('This is the Portfolio ResumePage')
 // })
-
-// Loads this for any link not listed
-app.get('*', (req, res) => {
-    res.sendFile(path.join(publicPath, 'index.html'))
-})
 // app.get('/services', (req, res) => {
 //     res.send('This is the Portfolio ServicesPage')
 // })
+
+
+// Handles any request that are not listed above and redirects to the main page
+app.get('*', (req, res) => {
+    res.sendFile(path.join(publicPath, 'index.html'))
+})
 
 
 
