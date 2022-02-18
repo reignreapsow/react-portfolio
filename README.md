@@ -1,9 +1,8 @@
 # REACT PORTFOLIO
-
+    Portfolio of all my new react projects 
 # # DESCRIPTION
-    A  starter template for react, expressjs builds.
+    A  custom portfolio design & template for react projects.
 
-    portfolio:~/public_html/react/.git
-
+    
 
     a

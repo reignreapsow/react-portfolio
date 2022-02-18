@@ -5,6 +5,7 @@ import {
     Navigate
 } from "react-router-dom";
 
+
 //# PAGES
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
@@ -17,7 +18,7 @@ export default function App() {
     return (
         <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="services" element={<ServicesPage />} />
+            <Route path="/services" element={<ServicesPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />

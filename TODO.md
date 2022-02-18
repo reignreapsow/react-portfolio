@@ -17,6 +17,7 @@
     02 ADD the rest of the sections
     03 ADD EXPRESSJS to connect to the mysql database
     04 SETUP GIT REMOTE & PUSHED TO SUBDOMAIN REPO 
+    05 SETUP JEST FOR FUTURE PROTOTYPE testing
 
 ## FIXES
 
