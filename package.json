@@ -7,7 +7,9 @@
     "start": "webpack serve",
     "watch": "webpack watch",
     "build": "webpack",
-    "server": "nodemon server/server.js"
+    "gitSubDeploy": "git add . && git commit -m 'Deployed to git deployReactSub' && git push deployReactSub master",
+    "server": "nodemon server/server.js",
+    "subDeploy": "" 
   },
   "keywords": [],
   "author": "",
