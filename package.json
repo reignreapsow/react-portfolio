@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Web Portfolio",
   "entry point": "server/server.js",
+  "homepage": "react.reignwestry.com",
+  "url": "https://github.com/reignwestry/react-portfolio",
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack watch",
     "build": "webpack",
-    "gitSubDeploy": "git add . && git commit -m 'Deployed to git deployReactSub' && git push deployReactSub master",
-    "server": "nodemon server/server.js",
-    "subDeploy": "" 
+    "server": "nodemon server/server.js && npm run start" 
   },
   "keywords": [],
   "author": "",

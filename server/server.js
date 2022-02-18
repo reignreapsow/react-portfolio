@@ -4,15 +4,6 @@ const port = process.env.PORT || 3000
 const path = require('path');
 const publicPath = path.join(__dirname, '..', 'public');
 app.use(express.static(publicPath)); //default load public folder
-//# PAGES
-// import AboutPage from './pages/AboutPage';
-// import ServicesPage from './pages/ServicesPage';
-// import GalleryPage from './pages/GalleryPage';
-// import ContactPage from './pages/ContactPage';
-// import ResumePage from './pages/ResumePage';
-// import HomePage from './pages/HomePage';
-
-
 
 //# ROUTES
 // app.get('/', (req, res) => {
