@@ -57,7 +57,7 @@
     },
     devServer: {
         historyApiFallback: true,
-        contentBase: './',
+        // contentBase: './',
         hot: true
     },
     // add a custom index.html as the template
