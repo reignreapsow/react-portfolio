@@ -31,3 +31,11 @@
         background-color: green;
     }
 }
+
+
+$breakpoints: (
+    "phone": 360px,
+    "tablet": 768px,
+    "desktop": 1366px,
+    "LGdesktop":1920px
+) !default;
