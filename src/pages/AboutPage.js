@@ -6,7 +6,7 @@ import React from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import ShowcaseSection from '../components/Showcase';
-import ServicesSection from '../components/ServicesSection';
+// import ServicesSection from '../components/ServicesSection';
 import ContactSection from '../components/ContactSection';
 
 
@@ -19,7 +19,7 @@ class AboutPage extends React.Component {
             <div className="App">
                 <Header />
                 <HeroSection />
-                <ServicesSection />
+                {/* <ServicesSection /> */}
                 <ShowcaseSection />
                 <ContactSection />
                 <h1>REACT is working</h1>

@@ -14,7 +14,7 @@ export default function ServicesPage(){
                 <Header />
                 <HeroSection />
                 <ServicesSection />
-                <ShowcaseSection />
+                {/* <ShowcaseSection /> */}
                 <ContactSection />
                 <h1>REACT is working</h1>
             </div>  

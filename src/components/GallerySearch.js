@@ -53,7 +53,9 @@ class GallerySearch extends Component{
                 <tr>
                     <th>Project Type</th>
                     <th>Programming Languages</th>
-                    <th>Sort</th>
+                        <th>Sort</th>
+                        <th>
+                    <button onClick={displayProjects}>SEARCH</button> </th>
                 </tr>
                 <tr>
                     <td>
@@ -158,8 +160,8 @@ class GallerySearch extends Component{
                             </label>
                     </td>
                 </tr>
+
                 </table>
-                <button onClick={displayProjects}>SEARCH</button>
 
             </div>
         );
